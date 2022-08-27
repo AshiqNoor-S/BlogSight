@@ -1,0 +1,50 @@
+
+p {
+    font-weight: 700;
+}
+
+.sign-up-pg2 {
+    padding: 5% 25%;
+    font-family: "Roboto";
+    background-color: #efefef;
+}
+
+/* Sign Up Header Section */
+
+.sign-up-header {
+    text-align: center;
+    background-color: #b0b0b0;
+}
+
+.sign-up-header h1 {
+    font-weight: 900;
+}
+
+.sign-up-header p {
+    font-weight: 600;
+}
+
+/* Form Section */
+
+.form-section {
+    padding: 2% 10%;
+    background-color: #b0b0b0;
+}
+
+#name {
+    margin-bottom: 2%;
+    width: 30%;
+}
+
+#bio {
+    margin-bottom: 2%;
+    width: 66%;
+}
+
+#tnc {
+    margin: 5% auto;
+}
+
+.submit-button {
+    margin-bottom: 4%;
+}

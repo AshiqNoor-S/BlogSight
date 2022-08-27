@@ -1,0 +1,84 @@
+.logo{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#title{
+  background-image: url("https://img.freepik.com/free-vector/watercolor-nature-background-with-leaves_52683-59449.jpg?w=2000");
+  background-repeat: no-repeat;
+}
+
+.nav-link{
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  color:black;
+  font-weight: bold;
+}
+
+.logo{
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+    color:black;
+    margin-left: 20%;
+    font-weight: bolder;
+}
+
+.head-section{
+  text-align: center;
+  padding : 15% 30% 20%;
+  font-family: 'Anton', sans-serif;
+  font-size: 10px;
+}
+
+.container-fluid{
+  padding: 4% 10%;
+}
+
+.btn{
+  font-family: serif;
+}
+
+.review-pic{
+  border-radius:50%;
+}
+
+#review{
+  text-align: center;
+  margin:0;
+  padding-top: 4%;
+  font-weight: bolder;
+}
+
+#reviews{
+  padding: 4% 20%;
+  text-align: left;
+}
+
+.trending-section{
+  background-color: #CFD2CF;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.name{
+  color: white;
+  font-size: 20px;
+}
+
+.hd{
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.side{
+  float:right;
+  margin-left: 3%;
+}

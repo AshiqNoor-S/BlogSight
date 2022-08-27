@@ -1,0 +1,196 @@
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 300;
+    color: #808080;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-2 {
+    padding: 2% 6%;
+    background-color: #efefef;
+}
+
+.spacing {
+    color: #fff;
+}
+
+/* .lorem {
+    text-align: center;
+} */
+
+.get-started {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Trending Topics section */
+
+.trending-topics {
+    background-color: #81fefc;
+    padding: 1.5%;
+}
+
+.trending-topics h4 {
+    font-size: 1.5rem;
+}
+
+.trending-topics li {
+    font-size: 1.2rem;
+}
+
+
+
+/* Top Posts section */
+
+.see-more {
+    text-align: right;
+    color: #00a6fe;
+}
+
+
+
+/* Footer section */
+
+footer {
+    background-color: #535353;
+    color: #fff;
+    padding: 4% 6% 1%;
+}
+
+.contact-us {
+    padding: 0 2%;
+}
+
+
+
+/* Footer links section */
+
+.footer-links {
+    padding: 0 2%;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+
+
+/* Follow Us On section */
+
+.follow-us-on {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.follow-us-on a {
+    text-decoration: none;
+}
+
+.footer-icon {
+    margin: 4% 4% 2%;
+}
+
+.twitter-icon:hover {
+    color: #1DA1F2;
+}
+
+.linkedin-icon:hover {
+    color: #0077b5;
+}
+
+.insta-icon:hover {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+
+/* Copyright section */
+
+.copyright {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.up-arrow {
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+}
+
+.up-arrow:hover {
+    color: #0ff8ce;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 991.2px) {
+    .trending-topics {
+        width: 50%;
+        margin: 5% auto;
+        text-align: center;
+    }
+    .trending-topics ul {
+        list-style-type: none;
+    }
+    .footer-icon {
+        margin: 1% 1%;
+    }
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.2px) {
+    .footer-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-logo-section h2{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    .contact-us {
+        text-align: center;
+        margin-top: 2%;
+    }
+    .footer-links {
+        text-align: center;
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 575.2px) {
+    .contact-us {
+        text-align: center;
+        margin-top: 4%;
+    }
+    .footer-links {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+}
